@@ -1,0 +1,26 @@
+    {
+        "video_path": 0_room.gif",
+        "caption": "A cozy living room with a large, comfy sofa and a coffee table.",
+        "awb_list": "[3200.0, 3050.0, 3700.0, 4500.0, 9500.0]"
+    },
+    {
+        "video_path": "1_conference.gif",
+        "caption": "The image depicts a large conference room with a long table surrounded by numerous chairs. The table is equipped with a laptop and a mouse, indicating that it is a workspace for meetings and presentations.",
+        "awb_list": "[8000.0, 6000.0, 4000.0, 3000.0, 2000.0]"
+    },
+    {
+        "video_path": "2_house.gif",
+        "caption": "A view of a house surrounded by trees, with a green lawn in front of it.",
+        "awb_list": "[3600.0, 2600.0, 4600.0, 5600.0, 6600.0]"
+    },
+    {
+        "video_path": "3_castle.gif",
+        "caption": "A beautiful view of a city with a castle and a large body of water.",
+        "awb_list": "[3000.0, 6000.0, 7000.0, 8000.0, 9000.0]"
+    },
+    {
+        "video_path": "4_trash.gif",
+        "caption": "A collection of trash cans and a potted plant are seen in the image. The trash cans are of various sizes and colors, including a blue one, a black one, and a yellow one.",
+        "awb_list": "[3100.0, 4000.0, 8000.0, 7000.0, 3000.0]"
+    },
+

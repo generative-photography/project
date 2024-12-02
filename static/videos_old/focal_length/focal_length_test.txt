@@ -1,0 +1,25 @@
+    {
+        "video_path": "0_office.gif",
+        "caption": "A large office space with a carpeted floor and white walls.",
+        "focal_length_list": "[45.0, 40.0, 35.0, 30.0, 25.0]"
+    },
+    {
+        "video_path": "1_beach.gif",
+        "caption": "A clean beach with waves and a few footprints.",
+        "focal_length_list": "[31.0, 36.0, 42.0, 48.0, 54.0]"
+    },
+    {
+        "video_path": "2_trail.gif",
+        "caption": "A quiet mountain trail with rocks and pine trees lining the path.",
+        "focal_length_list": "[25.0, 33.0, 44.0, 58.0, 68.0]"
+    },
+    {
+        "video_path": "3_lake.gif",
+        "caption": "A peaceful lake surrounded by tall grass and small rocks.",
+        "focal_length_list": "[30.0, 35.0, 45.0, 60.0, 70.0]"
+    },
+    {
+        "video_path": "4_garden.gif",
+        "caption": "A beautiful garden filled with red roses and green leaves.",
+        "focal_length_list": "[24.9, 36.9, 48.9, 60.9, 69.9]"
+    },

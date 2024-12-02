@@ -1,0 +1,26 @@
+    {
+        "video_path": "0_desserts.gif",
+        "caption": "A display of frozen desserts, including cupcakes and donuts, is arranged in a row on a counter. The desserts are placed in plastic containers, and there are several of them in various sizes and flavors.",
+        "bokehK_list": "[2.0, 6.0, 10.0, 14.0, 18.0]"
+    },
+    {
+        "video_path": "1_horse.gif",
+        "caption": "A horse with a white face stands in a grassy field, looking at the camera.",
+        "bokehK_list": "[28.0, 14.0, 10.0, 6.0, 2.0]"
+    },
+    {
+        "video_path": "2_rose.gif",
+        "caption": "A single pink rose stands out in a field of green grass.",
+        "bokehK_list": "[17.0, 14.0, 11.0, 8.0, 3.0]"
+    },
+    {
+        "video_path": "3_plants.gif",
+        "caption": "A variety of potted plants are displayed on a window sill, with some of them placed in yellow and white cups. The plants are arranged in different sizes and shapes, creating a visually appealing display.",
+        "bokehK_list": "[18.0, 14.0, 10.0, 6.0, 2.0]"
+    },
+    {
+        "video_path": "4_backpack.gif",
+        "caption": "A colorful backpack with a floral pattern is sitting on a table next to a computer monitor.",
+        "bokehK_list": "[2.0, 8.0, 13.0, 20.0, 29.0]"
+    },
+
