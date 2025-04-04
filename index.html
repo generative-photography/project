@@ -55,7 +55,7 @@
              <br> Realistic Text-to-Image Synthesis
 
             <br>
-              <span style="font-size: 0.8em; font-weight: normal;">CVPR 2025</span>
+              <span style="font-size: 0.6em; font-weight: normal;">CVPR 2025 Highlight & Demo</span>
                  </h1>
 <div class="is-size-5 publication-authors">
   <div class="author-row">
@@ -214,20 +214,17 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Image generation today can produce somewhat realistic images from text prompts.
-            However, if one asks the generator to synthesize a particular camera setting such as
-            creating different fields of view using a 24mm lens versus a 70mm lens,
-            the generator will not be able to interpret and generate scene-consistent images.
-            This limitation not only hinders the adoption of generative tools in photography applications
-            but also exemplifies a broader issue of bridging the gap between
-            the data-driven models and the physical world.
-            In this paper, we introduce the concept of <strong>Generative Photography</strong>,
-            a framework designed to control <strong>camera intrinsic settings</strong> during content generation.
-            The core innovation of this work are the concepts of <strong>Dimensionality Lifting
-            and Contrastive Camera Learning</strong>, which achieve continuous and consistent transitions for
-            different camera settings. Experimental results show that our method produces significantly
-            more scene-consistent photorealistic images than state-of-the-art models such as Stable Diffusion 3 and FLUX.
-
+            Image generation today can produce somewhat realistic images from text prompts. However, 
+            if one asks the generator to synthesize a specific camera setting such as creating different fields
+             of view using a 24mm lens versus a 70mm lens, the generator will not be able to interpret and generate 
+             scene-consistent images. This limitation not only hinders the adoption of generative tools in 
+             professional photography but also highlights the broader challenge of aligning data-driven models
+              with real-world physical settings. In this paper, we introduce <strong>Generative Photography</strong>,
+            a framework that allows controlling <strong>camera intrinsic settings</strong> during content generation.
+            The core innovation of this work are the concepts of  <strong>Dimensionality Lifting and 
+            Differential Camera Intrinsics Learning</strong>, enabling smooth and consistent transitions
+            across different camera settings. Experimental results show that our method produces
+            significantly more scene-consistent photorealistic images than state-of-the-art models such as Stable Diffusion 3 and FLUX.
           </p>
         </div>
       </div>
@@ -330,19 +327,19 @@
               <strong>disentanglement</strong> capabilities and ensure <strong>consistency</strong>.
            </li>
            <li>
-        <strong>Contrastive Camera Learning.</strong>
-        We should design a <strong>contrastive</strong> camera learning strategy to facilitate the
-        generative model's understanding of camera physics.
-        This strategy operates at <strong>both the data and network</strong> levels,
-        jointly emphasizing the changes introduced by varying camera settings within the same scene.
+        <strong>Differential Camera Intrinsics Learning.</strong>
+        A strategy designed to explicitly
+           capture differences in camera intrinsic settings, operating
+           simultaneously at both data and network architecture levels
+             to reinforce consistent scene representation.
            </li>
           </p>
         </div>
-        <img src="./static/images/Data.png" alt="framework" style="width: 50%;">
+        <img src="./static/images/Data.png" alt="framework" style="width: 80%;">
         <div class="content has-text-justified">
-          <p>We construct contrastive data for the same scene using
+          <p>We construct differential data for the same scene using
             the approach illustrated above.
-            Contrastive data is advantageous as it enables models to
+            Differential data is advantageous as it enables models to
             focus on and learn from the differences between images,
             rather than being overwhelmed by the vast diversity of real-world data.
           </p>
